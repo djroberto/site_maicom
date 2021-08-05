@@ -21,23 +21,9 @@ class _HomeState extends State<Home> {
           children: <Widget>[
             DrawerHeader(
             decoration: BoxDecoration(
-              gradient: LinearGradient(colors: <Color>[
-                Colors.black,
-                Colors.white
-              ]
-          ),
+              color: Colors.black,
             ),
-             child: Container(
-               child: Column(
-                 children: <Widget>[
-                     Material(
-                       borderRadius: BorderRadius.all(Radius.circular(50.0)),
-                       child: Padding(padding: EdgeInsets.all(8.0),
-                       child: Image.asset('images/putao.jpg',width: 80, height: 80,),)
-                     )
-                 ],
-                 ),
-             )
+            child: Image.asset('images/logobranco.png'),
             ),
             CustonListTile(),
             

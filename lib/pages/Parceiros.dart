@@ -32,13 +32,14 @@ class _ParceirosState extends State<Parceiros> {
                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                      crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
+                      
                       Container(
                           width: 267,
                           height: 150,
                           decoration: BoxDecoration(
                                              image: DecorationImage(
                                                             image: AssetImage('images/djrob2.jpg'),
-                                                            alignment: Alignment.centerLeft)                                                               ),
+                                                            alignment: Alignment.centerLeft),                                                             ),
                      ),
                      
 //------------------------link face------------------------------------------
