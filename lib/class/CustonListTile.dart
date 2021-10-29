@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:site_maicom/pages/Parceiros.dart';
 import 'package:site_maicom/pages/Trabalhos.dart';
 import 'package:site_maicom/pages/sobre.dart';
+import 'package:site_maicom/pages/teste.dart';
 import 'package:site_maicom/pages/zap.dart';
 
 class CustonListTile extends StatelessWidget {
@@ -79,6 +80,22 @@ class CustonListTile extends StatelessWidget {
             ),
 
   //-----------------------------------------------------------------------
+ Row(              
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children:<Widget>[
+                TextButton(
+                  onPressed: () => { 
+                    Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => teste()))
+
+                   },
+                  child: Text('MaxLinesWidget',
+                           style: TextStyle(
+                          color: Colors.black, fontWeight: FontWeight.bold),
+                   ),                  
+                    ),
+               Icon(Icons.arrow_right),
+              ]
+            ),
           ],
         ),
       ),
